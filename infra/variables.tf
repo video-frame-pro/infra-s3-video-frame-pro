@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "Nome do bucket S3"
   type        = string
-  default     = "video_frame_pro_s3"
+  default     = "video-frame-pro-s3"
 }
 
 variable "environment" {
